@@ -1,0 +1,37 @@
+{
+  "name": "hostcreator",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/pg": "^8.15.5",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@types/strophe.js": "^1.4.1",
+    "@xmpp/client": "^0.13.1",
+    "@xmpp/debug": "^0.13.0",
+    "@xmpp/xml": "^0.13.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.17.1",
+    "fast-xml-parser": "^5.3.0",
+    "firebase-admin": "^10.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "pg": "^8.16.3",
+    "rxjs": "^7.8.0",
+    "strophe.js": "^1.6.0",
+    "websocket": "^1.0.34"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
